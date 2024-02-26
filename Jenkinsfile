@@ -21,5 +21,10 @@ pipeline {
                 echo 'Hello Deliver'
             }
         }
+        stage('Complete') {
+            steps {
+                echo 'Job Complete'
+            }
+        }
     }
 }
